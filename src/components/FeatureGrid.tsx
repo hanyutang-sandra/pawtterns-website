@@ -21,8 +21,8 @@ const features: Feature[] = [
     description: 'No account needed. One-click delete all data. Everything stays on your device.',
   },
   {
-    image: '/screenshots/clean-interface.png',
-    title: 'Clean Interface',
+    image: '/screenshots/ads-free.png',
+    title: 'Ads Free',
     description: '100% free. No ads, ever. Built for clarity and ease of use.',
   },
 ]
@@ -30,14 +30,14 @@ const features: Feature[] = [
 export default function FeatureGrid() {
   return (
     <section className="max-w-6xl mx-auto px-4 sm:px-6 py-12 sm:py-16" aria-label="Features">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
         {features.map((feature, index) => (
           <article
             key={index}
-            className="bg-card-bg rounded-3xl p-6 sm:p-8 shadow-[0_8px_30px_rgb(0,0,0,0.15)] hover:shadow-[0_12px_40px_rgb(0,0,0,0.25)] hover:scale-105 transition-all duration-300"
+            className="bg-card-bg rounded-3xl p-4 sm:p-6 shadow-[0_8px_30px_rgb(0,0,0,0.15)] hover:shadow-[0_12px_40px_rgb(0,0,0,0.25)] hover:scale-[1.03] transition-all duration-300"
           >
             {/* Screenshot placeholder with iPhone 17 aspect ratio */}
-            <div className="mb-4 overflow-hidden rounded-2xl bg-gray-100 flex items-center justify-center mx-auto" style={{ aspectRatio: '1320 / 2868', maxWidth: '66.67%' }}>
+            <div className="mb-4 overflow-hidden rounded-2xl bg-gray-100 flex items-center justify-center mx-auto" style={{ aspectRatio: '1320 / 2868', maxWidth: '50%' }}>
               <img
                 src={feature.image}
                 alt={`${feature.title} screenshot`}
