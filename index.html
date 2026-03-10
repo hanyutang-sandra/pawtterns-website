@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Primary Meta Tags -->
+    <title>Pawtterns - Analytical Pet Digestion Tracking</title>
+    <meta name="title" content="Pawtterns - Analytical Pet Digestion Tracking" />
+    <meta name="description" content="Understand your pet's digestion patterns through simple logging and clear, deterministic analysis. No AI, no guesswork—just patterns." />
+    <meta name="keywords" content="pet health, digestion tracking, pet food diary, symptom tracking, veterinary, dog health, cat health, pet care" />
+    <meta name="author" content="Pawtterns" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://pawtterns.app/" />
+    <meta property="og:title" content="Pawtterns - Analytical Pet Digestion Tracking" />
+    <meta property="og:description" content="Understand your pet's digestion patterns through simple logging and clear, deterministic analysis. No AI, no guesswork—just patterns." />
+    <meta property="og:image" content="https://pawtterns.app/og-image.png" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://pawtterns.app/" />
+    <meta property="twitter:title" content="Pawtterns - Analytical Pet Digestion Tracking" />
+    <meta property="twitter:description" content="Understand your pet's digestion patterns through simple logging and clear, deterministic analysis. No AI, no guesswork—just patterns." />
+    <meta property="twitter:image" content="https://pawtterns.app/og-image.png" />
+
+    <!-- Apple Touch Icon -->
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#7FB069" />
+
+    <!-- Tailwind CSS via CDN (no PostCSS needed!) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'brand-green': '#7FB069',
+              'brand-green-tint': '#E8F4E3',
+              'page-bg': '#F5F5F0',
+              'card-bg': '#FAFAF7',
+              'label-primary': '#3D5A4C',
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        background-color: #F5F5F0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
