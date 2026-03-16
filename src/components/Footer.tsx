@@ -31,12 +31,12 @@ export default function Footer() {
 
         {/* Contact */}
         <div className="mt-6 text-center text-sm text-gray-600">
-          Questions?{' '}
+          Questions? Contact the developer: {' '}
           <a
             href="mailto:support@pawtterns.app"
             className="text-brand-green hover:underline"
           >
-            support@pawtterns.app
+            hanyutang.sandra@gmail.com
           </a>
         </div>
       </div>
