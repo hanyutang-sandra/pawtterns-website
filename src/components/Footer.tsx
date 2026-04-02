@@ -33,7 +33,7 @@ export default function Footer() {
         <div className="mt-6 text-center text-sm text-gray-600">
           Questions? Contact the developer: {' '}
           <a
-            href="mailto:support@pawtterns.app"
+            href="mailto:hanyutang.sandra@gmail.com"
             className="text-brand-green hover:underline"
           >
             hanyutang.sandra@gmail.com
