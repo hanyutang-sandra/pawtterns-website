@@ -78,12 +78,12 @@ export default function PrivacyPolicy() {
                 Contact
               </h2>
               <div className="space-y-3 sm:space-y-4">
-                <p>Questions about privacy?</p>
+                <p>Questions about privacy? Contact the developer: </p>
                 <a
-                  href="mailto:support@pawtterns.app"
+                  href="mailto:hanyutang.sandra@gmail.com"
                   className="inline-flex items-center gap-2 text-brand-green hover:underline font-medium"
                 >
-                  support@pawtterns.app
+                  hanyutang.sandra@gmail.com
                 </a>
               </div>
             </div>
